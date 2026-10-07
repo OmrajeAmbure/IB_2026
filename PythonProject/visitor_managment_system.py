@@ -27,7 +27,7 @@ visitors = [
         "age": 25,
         "purpose": "Seminer",
         "person_to_meet": "Student Coordinator",
-        "date_of_visit": date(2026, 9, 27),
+        "date_of_visit": date(2026, 9, 28),
         "entry_time": "10:30 AM",
         "exit_time": None,
         "status": "IN"
@@ -53,7 +53,7 @@ visitors = [
         "age": 24,
         "purpose": "Finance Seminer",
         "person_to_meet": "IB Student",
-        "date_of_visit": date(2026, 9, 27),
+        "date_of_visit": date(2026, 9, 28),
         "entry_time": None,
         "exit_time": None,
         "status": "REGISTERED"
@@ -656,7 +656,6 @@ while True:
                         seminar_count += 1
 
                     else:
-
                         other_count += 1
 
 
