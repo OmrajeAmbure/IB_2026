@@ -18,8 +18,8 @@ def speak(text):
     # Select the first installed voice
     voices = engine.getProperty("voices")
     if voices:
-        engine.setProperty("voice", voices[0].id)
-
+        engine.setProperty("voice", voices[1].id)
+    # if voices[1] -> female voice, voices[0] -> male voice
     engine.say(text)
     engine.runAndWait()
     engine.stop()
